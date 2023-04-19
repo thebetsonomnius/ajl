@@ -3,7 +3,7 @@ title: Definitions
 permalink: /definitions/
 ---
 
-## zemlems (#zemlems)
+## zemlems
 A zemlem is a ZettascalE MultimodaL Model (the 2nd e is inserted for phonetic consistency). The replacement of language
 with multimodal is for posterity's sake - some models are language-only, and some aren't, but it follows from the
 [circuit co-evolution theory](#circuit-coevolution-theory) that Transformer generalization increases with the
@@ -12,7 +12,7 @@ replaced by LMMs. Zettascale refers here to the number of floating point operati
 the exception of PaLM 540B and likely GPT-4-vision (which are [yemlems](#yemlems)), most of the largest models in 
 existence today are zemlems. They are trained on clusters with theoretical max throughput of 1-25 exaFLOPS.
 
-## yemlems (#yemlems)
+## yemlems
 A yemlem is a YottascalE Multimodal Model (the 2nd e is inserted for phonetic consistency). The replacement of language
 with multimodal is for posterity's sake - some models are language-only, and some aren't, but it follows from the
 [circuit co-evolution theory](#circuit-coevolution-theory) that Transformer generalization increases with the
@@ -22,7 +22,7 @@ class is quite sparsely populated at the moment. The only models publicly stated
 (per the training wall-clock time stated by Google multiplied by the stated realized FLOP throughput of the dual TPUv4 pods),
 and GPT-4-vision (per Sam Altman's public comments at MIT on the dollar-cost of training the GPT-4 family).
 
-## the pure language limit (#pure-language-limit)
+## the pure language limit
 Per calculations based on the [separation rank of decoder-only Transformers](https://arxiv.org/pdf/2105.03928.pdf), and
 the hypothesized amount of high-volume or high-quality tokens on the internet, there are fundamental limits to the
 compute and parameter count scaling laws of LLMs. If one assumes the scaling laws derived from the separation rank
