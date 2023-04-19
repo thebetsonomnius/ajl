@@ -29,3 +29,16 @@ compute and parameter count scaling laws of LLMs. If one assumes the scaling law
 figures linked to in the previous sentence, the largest LLM one can profitably train is between 1T-1.3T parameters. I
 presume a constant vocabulary size of ~32K, due to the theoretical and [apparently practical](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf) improvements in generalization at 
 the expense of inference speed that come from a narrower vocabulary.
+
+## circuit coevolution theory
+Transformers learn circuits, rather than key-value stores. While it is true that at initialization time Transformers are closer in parameter space to
+memorization-based solutions than to generalizing solutions, it turns out that the former are not located in
+homogeneous loss basins. What that means is that, given sufficient training iterations and a sufficiently large i.i.d 
+sampling of the data distribution, Transformers will find generalizing solutions. Such behavior is referred to as
+grokking. Mathematically rigorous investigations of this phenomenon remain limited to toy problems like the learning of
+k-sparse boolean parities, but the empirical literature is quite clear. Generalization performance, formalized as the rate at
+which Transformers progress from the memorizing solution to the generalizing solution, is determined by the diversity
+of circuits present in the network close to initialization time. Further explanation of this phenomenon is beyond the
+scope of the definitions page. See the accompanying [post](https://ajl.bio/2023/04/18/initiation.html) for a proper and
+rigorous exposition.
+
