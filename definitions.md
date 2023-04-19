@@ -18,7 +18,7 @@ with multimodal is for posterity's sake - some models are language-only, and som
 [circuit diversity theory](#circuit-diversity-theory) that Transformer generalization increases with the
 diversity of the training data. It is therefore safe to assume that in several years' time, LLMs will be completely
 replaced by LMMs. Yottascale refers here to the number of floating point operations required to train the model. This 
-class is quite sparsely populated at the moment. The only models publicly stated to fall in this class are PaLM 540B 
+class is quite sparsely populated at the moment. The only models publicly confirmed to fall in this class are PaLM 540B 
 (per the training wall-clock time stated by Google multiplied by the realized FLOP throughput of the dual TPUv4 pods),
 and GPT-4-vision (per Sam Altman's public comments at MIT on the dollar-cost of training the GPT-4 family).
 
