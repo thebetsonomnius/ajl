@@ -6,7 +6,7 @@ permalink: /definitions/
 ## zemlems
 A zemlem is a ZettascalE MultimodaL Model (the 2nd e is inserted for phonetic consistency). The replacement of language
 with multimodal is for posterity's sake - some models are language-only, and some aren't, but it follows from the
-[circuit co-evolution theory](#circuit-coevolution-theory) that Transformer generalization increases with the
+[circuit diversity theory](#circuit-diversity-theory) that Transformer generalization increases with the
 diversity of the training data. It is therefore safe to assume that in several years' time, LLMs will be completely
 replaced by LMMs. Zettascale refers here to the number of floating point operations required to train the model. With 
 the exception of PaLM 540B and likely GPT-4-vision (which are [yemlems](#yemlems)), most of the largest models in 
