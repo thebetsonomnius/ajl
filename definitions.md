@@ -1,3 +1,8 @@
+---
+title: Definitions
+permalink: /definitions/
+---
+
 ## zemlems (#zemlems)
 A zemlem is a ZettascalE MultimodaL Model (the 2nd e is inserted for phonetic consistency). The replacement of language
 with multimodal is for posterity's sake - some models are language-only, and some aren't, but it follows from the
