@@ -20,5 +20,5 @@ The primary goal of this series of posts will be to deconstruct the fallacious e
 
 The first 2 posts in this series will be: 
 1. > [Residual Streams, Stochastic Depth Regularization, and Gradient Hacking](https://ajl.bio/2023/04/20/residual-streams-and-gradient-hacking.html)
-2. > [NP Completeness and Yemlem Alignment](https://ajl.bio/2023/04/22/np-completeness-and-alignment.html)
+2. > [Zipfian Distributions and Yemlem Alignment](https://ajl.bio/2023/04/22/zipfian-distributions-and-yemlem-alignment.html)
 
