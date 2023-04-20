@@ -18,5 +18,5 @@ Per calculations based on the [separation rank of decoder-only Transformers](htt
 ## circuit diversity theory
 Neural networks compose circuits as they learn. If there are no circuits available to be composed into a circuit that can increase the model evidence, the model will try to memorize the data. Increasing circuit diversity in a model increases the probability that some combination of the circuits will increase model evidence. This is why bigger models trained on more diverse data generalize better than smaller models trained on less diverse data. Capabilities that emerge with increasing model size, training steps, and data diversity do so because of such models' higher circuit diversity compared to models with smaller size, trained for fewer steps, on less diverse data.
 
-## Yuddites
+## yuddites
 The intellectual progeny of Eliezer Yudkowsky. Alternatively defined as anyone who makes unfounded and poorly reasoned conjectures on AGI. Statistically speaking, most people who've uttered the phrase AGI fall under this category.
