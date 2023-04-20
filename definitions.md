@@ -18,5 +18,5 @@ Per calculations based on the [separation rank of decoder-only Transformers](htt
 ## circuit diversity theory
 The circuit diversity theory, in the form of a childhood aphorism: [the more you know, the more you know](https://brainpop.com). Or, in the form of a syllogism: Neural networks compose circuits as they learn. Composition requires the existence of the primitives being composed. The more diverse the primitives, the more diverse the compositions, and the less work a model will have to do to account for novel data. This is true in all neural networks, but is realized in its purest form in transformers, due to their combinatorial properties.
 
-# Yuddites
+## Yuddites
 The intellectual progeny of Eliezer Yudkowsky. Alternatively defined as anyone who makes unfounded and poorly reasoned conjectures on AGI. Statistically speaking, most people who've uttered the phrase AGI fall under this category.
